@@ -116,16 +116,16 @@ function multiplyBySeven() {
 // ************************************ Ejercicios While y do-While
 
 //Multiplicar un número por él mismo (el cuadrado) hasta que el resultado supere 349.
-// function multiplyUntil() {
-//   console.clear()
-//   let number = prompt("Ingresa un número:")
-//   let end = 349
+function multiplyUntil() {
+  console.clear()
+  let number = prompt("Ingresa un número:")
+  let end = 349
 
-//   do {
-//     number = number ** number;
-//     console.log(number)
-//   } while (number < end);
-// }
+  do {
+    number = number ** number;
+    console.log(number)
+  } while (number < end);
+}
 
 // Fibonacci
 // Crear un programa que genere una sucesión de Fibonacci. Ej:0,1,1,2,3,5,8,13,...
