@@ -122,7 +122,7 @@ function multiplyUntil() {
   let end = 349
 
   do {
-    number = number ** number;
+    number = number ** 2;
     console.log(number)
   } while (number < end);
 }
